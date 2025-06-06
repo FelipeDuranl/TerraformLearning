@@ -1,6 +1,6 @@
 provider "azurerm" {
   features {}
-  subscription_id = ""
+  subscription_id =""
 }
 
 variable "location" {
@@ -13,7 +13,7 @@ variable "location" {
 variable "resource_group_name" {
   type        = string
   description = "name of the resource group"
-  default     = "rg-vnet-01"
+  default     = "rg-vnet"
 }
 
 variable "tags" {
